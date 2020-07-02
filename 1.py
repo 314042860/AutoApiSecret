@@ -20,8 +20,8 @@ def gettoken(refresh_token):
             }
     data={'grant_type': 'refresh_token',
           'refresh_token': refresh_token,
-          'client_id':id,
-          'client_secret':secret,
+          'client_id':b799301f-180b-44aa-b4ca-67200c615374,
+          'client_secret':Zk2pkU~iOnjz.6CAnW_CZw--b~t1uP1G.8,
           'redirect_uri':'http://localhost:53682/'
          }
     html = req.post('https://login.microsoftonline.com/common/oauth2/v2.0/token',data=data,headers=headers)
